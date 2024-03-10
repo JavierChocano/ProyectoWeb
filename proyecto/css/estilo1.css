@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gold;
+}
+#inicio{background-image: url(../fotos/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+    
+}
+main {
+    background-image: linear-gradient(to bottom, #666, #000); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+main h2, h3 {
+    text-align: center;
+}
+main h2 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+}
+
+main h3 {
+    font-size:25px ;
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+}
+p {color: white ;}
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: #333; 
+    padding: 10px 0; 
+    z-index: 999; 
+}
+
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+}
+
+li {
+    display: inline-block; 
+}
+
+
+a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px 20px; 
+    transition: color 0.3s, font-size 0.3s; 
+}
+
+
+a:hover {
+    color: gold ; 
+    font-size: 70px; 
+}
+
+#inicio {
+    text-align: center; 
+    padding: 50px; 
+    font-size: 20px; 
+}
+
+/* Estilos del h1 */
+#inicio h1 {
+    font-size: 40px; 
+    transition: font-size 0.3s; 
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Estilos del h2 */
+#inicio h2 {
+    font-size: 30px; 
+    text-shadow: 2px 2px 4px black;
+
+}
+
+
+#inicio p {
+    display: none; 
+    color: white; 
+    text-shadow: 2px 2px 2px black; 
+}
+
+
+#inicio h2:hover + p {
+    display: block; /
+}
+
+
+.estimulante, .depresora, .alucinogeno, .esteroide {
+    margin-bottom: 20px; 
+}
+
+.estimulante h3, .depresora h3, .alucinogeno h3, .esteroide h3 {
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.contenido, .contenido2, .contenido3, .contenido4 {
+    display: flex; 
+    align-items: center; 
+}
+
+.contenido img, .contenido2 img, .contenido3 img, .contenido4 img {
+    width: 300px; 
+    margin-right: 20px; 
+}
+.estimulante p, .depresora p, .alucinogeno p, .esteroide p{
+    font-size: 30px;
+}
+footer {
+    
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
